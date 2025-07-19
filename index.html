@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!--Senior Container -->
+     <div class="h-screen w-full bg-white flex">
+
+        <!-- Side Bar -->
+<div class="w-15 h-90 bg-white flex flex-col items-center justify-evenly ml-2 cursor-pointer">
+
+<!-- info -->
+<div class="hover:bg-[#d9d9d9] h-7 w-7 flex justify-center items-center rounded-full " >
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3dI26wNNnFkp94Bl3Ru18hPX6W7aFehzDDDLej6n_etyadHoO" alt="info" class="size-5 ">
+</div>
+<!-- Home -->
+<div class="h-15 w-14 flex flex-col items-center hover:bg-[#d9d9d9] justify-center mt-5 rounded-sm">
+     <img src="https://icon-library.com/images/white-home-icon-png/white-home-icon-png-28.jpg" alt="Home" class="size-4">
+     <p class="text-[9px] ">Home</p>
+</div>
+<!-- Shorts -->
+<div class="h-15 w-14 flex flex-col items-center hover:bg-[#d9d9d9] justify-center rounded-sm">
+     <img src="https://i.pinimg.com/736x/17/d2/18/17d21878c22fe49e7e4752eecaa36541.jpg" alt="Shorts" class="size-6">
+     <p class="text-[9px] ">Shorts</p>
+</div>
+<!-- Subscriptions -->
+<div class="h-15 w-14 flex flex-col items-center hover:bg-[#d9d9d9] justify-center rounded-sm">
+     <img src="https://static.vecteezy.com/system/resources/thumbnails/009/644/702/small/music-file-icon-with-outline-style-vector.jpg" alt="Subscriptions" class="size-5">
+     <p class="text-[9px] ">Subscriptions</p>
+</div>
+<!-- You -->
+<div class="h-15 w-14 flex flex-col items-center hover:bg-[#d9d9d9] justify-center rounded-sm">
+     <img src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur.png" alt="You" class="size-5">
+     <p class="text-[9px] ">You</p>
+</div>
+<!-- Downloads -->
+<div class="h-15 w-14 flex flex-col items-center hover:bg-[#d9d9d9] justify-center rounded-sm">
+     <img src="https://static.vecteezy.com/system/resources/thumbnails/017/753/473/small_2x/download-data-icon-line-isolated-on-white-background-black-flat-thin-icon-on-modern-outline-style-linear-symbol-and-editable-stroke-simple-and-pixel-perfect-stroke-illustration-vector.jpg" alt="Downloads" class="size-7">
+     <p class="text-[9px] ">Downloads</p>
+</div>
+
+</div>
+       
+       
+       
+        <!-- Junior Container -->
+    <div class="h-screen w-[100%] bg-white flex flex-col  ">
+    
+    <!-- Header -->
+    <div class="h-11 flex justify-even  justify-between">
+
+        <!-- Youtube logo -->
+         <div class="flex items-center"><img src="https://www.pngplay.com/wp-content/uploads/9/Youtube-Logo-Transparent-PNG.png" alt="Youtube" class="size-22 cursor-pointer">
+         <p class="text-gray-400 text-[7px] font-semibold mb-5">PK</p>
+         </div>
+
+         <!-- Search Input Field -->
+  <div class="w-140 flex items-center justify-evenly"> <div class="flex items-center">
+    <input placeholder="Search" type="text" class="h-7 w-110 bg-white rounded-l-full border-1 border-[#c6c6c6] p-2 text-sm cursor-text " >
+    <button class="h-7 w-13 cursor-pointer bg-[#f2f2f2] rounded-r-full flex justify-center items-center border-1 border-[#c6c6c6] hover:bg-[#d9d9d9]">
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/256/159/159848.png"  class="size-4">
+        </div>
+    </button>
+   </div>
+   <!-- Mic icon -->
+   <button class="size-7 cursor-pointer bg-[#f2f2f2] rounded-full flex justify-center items-center hover:bg-[#d9d9d9]">    
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/controller-and-music/mic-microphone-icon.png" alt="" class="size-4">
+   </button> 
+   </div>
+
+   <!-- top right buttons  -->
+    <div class="flex items-center justify-evenly w-40 ">
+        <button class="w-20 h-7 cursor-pointer text-sm bg-[#f2f2f2] rounded-full flex items-center justify-center hover:bg-[#d9d9d9]  ">
+             <img src="https://static.thenounproject.com/png/899559-200.png" alt="" class="size-5 mr-1">
+            Create
+        </button>
+
+        <!-- Notification ring -->
+         <button class="size-7 cursor-pointer rounded-full bg-white hover:bg-[#d9d9d9] flex justify-center items-center">
+            <img src="https://png.pngtree.com/png-vector/20230302/ourmid/pngtree-bell-line-icon-vector-png-image_6626433.png" alt="" class="size-6">
+         </button>
+    
+    <!-- Account icon --> 
+     <button class="size-7 cursor-pointer rounded-full bg-blue-600 flex items-center justify-center"><p class="text-white">A</p></button>
+   
+   </div>
+</div>
+
+   <!-- Filters  -->
+<div class="w-150 h-15 flex items-center justify-around mt-5 ml-7">
+    <p class="bg-[#0f0f0f] cursor-pointer text-white w-7 h-6 flex justify-center items-center rounded-sm text-xs font-semibold">All</p>
+    <p class="bg-[#f2f2f2] cursor-pointer w-17 h-6 flex justify-center items-center rounded-sm text-xs font-semibold">Podcasts</p>
+    <p class="bg-[#f2f2f2] cursor-pointer w-13 h-6 flex justify-center items-center rounded-sm text-xs font-semibold">Music</p>
+    <p class="bg-[#f2f2f2] cursor-pointer w-13 h-6 flex justify-center items-center rounded-sm text-xs font-semibold">Mixes</p>
+    <p class="bg-[#f2f2f2] cursor-pointer w-32 h-6 flex justify-center items-center rounded-sm text-xs font-semibold">Recently Uploaded</p>
+    <p class="bg-[#f2f2f2] cursor-pointer w-16 h-6 flex justify-center items-center rounded-sm text-xs font-semibold">Watched</p>
+    <p class="bg-[#f2f2f2] cursor-pointer w-21 h-6 flex justify-center items-center rounded-sm text-xs font-semibold">New to you</p>
+</div>
+
+   
+<!-- Videos-container -->
+<div class="h-[100%] w-[100%] flex justify-evenly flex-col ">
+
+    <div class="h-50 w-[100%] flex justify-evenly  mt-5  ">
+    <!-- First Video -->
+     <div class="h-50 w-70 flex flex-col cursor-pointer">
+        <img src="https://marketplace.canva.com/EAEqfS4X0Xw/1/0/1600w/canva-most-attractive-youtube-thumbnail-wK95f3XNRaM.jpg" alt="" class="h-35 w-70 rounded-md"
+        >
+        <div class="h-15 w-60 flex justify-evenly items-center">
+<img src="https://randomuser.me/api/portraits/men/44.jpg" alt="" class="rounded-[50%] size-7 mb-4">
+
+<div class="w-50">
+    <p class="text-xs font-semibold">Create Professtional Thumbnails</p>
+    <p class="text-[10px] text-gray-500 font-semibold">Graphics Master</p>
+
+     <div class="w-28 flex  justify-between font-semibold">
+        <p class="text-[10px] text-gray-500">19K views </p>
+        <p class="text-[10px] text-gray-500 mb-1 font-bold">. </p>
+        <p class="text-[10px] text-gray-500">23 hours ago</p>
+     </div>
+</div>
+
+
+        </div>
+ 
+    </div>
+
+    <!-- Second video -->
+     <div class="h-50 w-70 flex flex-col cursor-pointer">
+        <img src="https://i.ytimg.com/vi/S8lptNvSjb4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDI4WJjCvByZARczuNv15Oim-1Grg" alt="" class="h-35 w-70 rounded-md"
+        >
+        <div class="h-15 w-60 flex justify-evenly items-center">
+<img src="https://yt3.googleusercontent.com/bxfOEpK5LyMfRl-fULN6ME0-XQpTPC0v2kn2QtWGlTy6aUomO5wSPWfETVhmyC182OHyxYvPDA=s900-c-k-c0x00ffffff-no-rj" alt="" class="rounded-[50%] size-7 mb-4">
+
+<div class="w-50">
+    <p class="text-xs font-semibold">Laziness ka the end!</p>
+    <p class="text-[10px] text-gray-500 font-semibold">Avinash kumar </p>
+
+     <div class="w-28 flex  justify-between  font-semibold">
+        <p class="text-[10px] text-gray-500">19K views </p>
+        <p class="text-[10px] text-gray-500 mb-1 font-bold">. </p>
+        <p class="text-[10px] text-gray-500">23 hours ago</p>
+     </div>
+</div>
+
+
+        </div>
+ 
+    </div>
+
+    <!-- Third Video -->
+<div class="h-50 w-70 flex flex-col cursor-pointer">
+        <img src="https://i.ytimg.com/vi/b4MFGEjIliY/maxresdefault.jpg" alt="" class="h-35 w-70 rounded-md"
+        >
+        <div class="h-15 w-60 flex justify-evenly items-center">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H75UdX1T5VcAY7auaZzpTS5_YCKFShtU8g&s" alt="" class="rounded-[50%] size-7 mb-4">
+
+<div class="w-50">
+    <p class="text-xs font-semibold">GFX mentor Thumbnails</p>
+    <p class="text-[10px] text-gray-500 font-semibold">Graphics Master</p>
+
+     <div class="w-28 flex  justify-between font-semibold">
+        <p class="text-[10px] text-gray-500">19K views </p>
+        <p class="text-[10px] text-gray-500 mb-1 font-bold">. </p>
+        <p class="text-[10px] text-gray-500">23 hours ago</p>
+     </div>
+</div>
+
+
+        </div>
+ 
+    </div>
+    </div>
+
+    <!-- Fourth video -->
+<div class="h-[100%] w-[100%] flex justify-evenly cursor-pointer ">
+    <!-- First Video -->
+     <div class="h-50 w-70 flex flex-col">
+        <img src="https://i.ytimg.com/vi/ERCMXc8x7mc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB6FnxWoj1ZG0iFMx76gYG-qXVCsg" alt="" class="h-35 w-70 rounded-md"
+        >
+        <div class="h-15 w-60 flex justify-evenly items-center">
+<img src="https://yt3.googleusercontent.com/FEcjRtez5od8UowDo6tTt9WlE-MrIFEmcwPMTORmK9Swk6KCklOmA3xfIG9WuLWfNYfNThQE=s900-c-k-c0x00ffffff-no-rj" alt="" class="rounded-[50%] size-7 mb-4">
+
+<div class="w-50">
+    <p class="text-xs font-semibold">Full Python Course</p>
+    <p class="text-[10px] text-gray-500 font-semibold">Graphics Master</p>
+
+     <div class="w-28 flex  justify-between font-semibold">
+        <p class="text-[10px] text-gray-500">19K views </p>
+        <p class="text-[10px] text-gray-500 mb-1 font-bold">. </p>
+        <p class="text-[10px] text-gray-500">23 hours ago</p>
+     </div>
+</div>
+
+
+        </div>
+ 
+    </div>
+
+    <!-- Fifth Video -->
+     <div class="h-50 w-70 flex flex-col cursor-pointer">
+        <img src="https://i.ytimg.com/vi/BsDoLVMnmZs/maxresdefault.jpg" alt="" class="h-35 w-70 rounded-md"
+        >
+        <div class="h-15 w-60 flex justify-evenly items-center">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ050dz-ygaSlz1FZhOrMG2JMLPnWwRViZCVQ&s" alt="" class="rounded-[50%] size-7 mb-4">
+
+<div class="w-50">
+    <p class="text-xs font-semibold">HTML Complete Course</p>
+    <p class="text-[10px] text-gray-500 font-semibold">Code with Harry</p>
+
+     <div class="w-28 flex  justify-between font-semibold">
+        <p class="text-[10px] text-gray-500">19K views </p>
+        <p class="text-[10px] text-gray-500 mb-1 font-bold">. </p>
+        <p class="text-[10px] text-gray-500">23 hours ago</p>
+     </div>
+</div>
+
+
+        </div>
+ 
+    </div>
+
+    <!-- Sixth Video -->
+<div class="h-50 w-70 flex flex-col cursor-pointer">
+        <img src="https://i.ytimg.com/vi/PXuOhXM4Kfw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDiej9qcF9iJ-7ZTQhe95ARB7OnmQ" alt="" class="h-35 w-70 rounded-md"
+        >
+        <div class="h-15 w-60 flex justify-evenly items-center">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGUcnxGWF3lQRji1vjr_6XWoW_Sqc7pAzLMA&s" alt="" class="rounded-[50%] size-7 mb-4">
+
+<div class="w-50">
+    <p class="text-xs font-semibold">Porsche delivery</p>
+    <p class="text-[10px] text-gray-500 font-semibold">Purab Darda</p>
+
+     <div class="w-28 flex  justify-between font-semibold">
+        <p class="text-[10px] text-gray-500">19K views </p>
+        <p class="text-[10px] text-gray-500 mb-1 font-bold">. </p>
+        <p class="text-[10px] text-gray-500">23 hours ago</p>
+     </div>
+</div>
+
+
+        </div>
+ 
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</div> 
+
+
+
+
+
+        </div>
+    
+    
+    
+    
+    </div>
+</body>
+</html>
